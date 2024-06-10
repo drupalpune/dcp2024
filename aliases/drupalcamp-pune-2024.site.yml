@@ -1,0 +1,10 @@
+'*':
+  host: appserver.${env-name}.37f3266b-770f-44f2-bddc-509ac04f1dec.drush.in
+  paths:
+    files: files
+  uri: ${env-name}-drupalcamp-pune-2024.pantheonsite.io
+  user: ${env-name}.37f3266b-770f-44f2-bddc-509ac04f1dec
+  ssh:
+    options: '-p 2222 -o "AddressFamily inet"'
+    tty: false
+
