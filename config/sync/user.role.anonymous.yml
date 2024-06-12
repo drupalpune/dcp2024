@@ -1,4 +1,4 @@
-uuid: 9666fa8c-97bf-4873-a6db-1850c7acabf2
+uuid: a8a16ecc-9809-4b98-8ef0-801a9524c3b7
 langcode: en
 status: true
 dependencies:
@@ -7,7 +7,6 @@ dependencies:
   module:
     - comment
     - contact
-    - field_permissions
     - filter
     - search
     - system
@@ -21,8 +20,5 @@ permissions:
   - 'access comments'
   - 'access content'
   - 'access site-wide contact form'
-  - 'access user profiles'
   - 'search content'
   - 'use text format restricted_html'
-  - 'view field_r'
-  - 'view field_time_slot'

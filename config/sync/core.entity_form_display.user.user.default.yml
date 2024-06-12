@@ -1,15 +1,12 @@
-uuid: 35215eb2-5554-474e-a560-7c77d7445c85
+uuid: a86a643f-e1d5-4956-85ec-48c2bea76df1
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.user.user.field_bio
-    - field.field.user.user.field_display_name
     - field.field.user.user.user_picture
     - image.style.thumbnail
   module:
     - image
-    - text
     - user
 _core:
   default_config_hash: FaQ9Ptcpxpg30AtiqRDtl_8zbJArHP1LPfug_s59TOA
@@ -24,22 +21,6 @@ content:
   contact:
     weight: 5
     region: content
-  field_bio:
-    type: text_textarea
-    weight: 2
-    region: content
-    settings:
-      rows: 5
-      placeholder: ''
-    third_party_settings: {  }
-  field_display_name:
-    type: string_textfield
-    weight: 1
-    region: content
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
   language:
     weight: 0
     region: content
@@ -54,5 +35,4 @@ content:
       progress_indicator: throbber
       preview_image_style: thumbnail
     third_party_settings: {  }
-hidden:
-  path: true
+hidden: {  }

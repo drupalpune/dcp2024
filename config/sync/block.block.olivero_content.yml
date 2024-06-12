@@ -1,4 +1,4 @@
-uuid: c4f8cf5c-7929-457b-9145-950dd40673f8
+uuid: e1eeab7f-c360-4ac7-b295-57825cd38be0
 langcode: en
 status: true
 dependencies:
@@ -19,8 +19,4 @@ settings:
   label: 'Main page content'
   label_display: '0'
   provider: system
-visibility:
-  request_path:
-    id: request_path
-    negate: false
-    pages: /none
+visibility: {  }

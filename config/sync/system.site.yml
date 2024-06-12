@@ -1,14 +1,14 @@
 _core:
   default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
 langcode: en
-uuid: ab257ff5-34a1-48e5-a47a-caced8a0af45
-name: Drupal
-mail: ''
+uuid: 3b2a76c7-c1cc-4748-9678-144025937f01
+name: 'DrupalCamp Pune 2024'
+mail: sushyl@gmail.com
 slogan: ''
 page:
   403: ''
   404: ''
-  front: /node
+  front: /node/1
 admin_compact_mode: false
 weight_select_max: 100
 default_langcode: en

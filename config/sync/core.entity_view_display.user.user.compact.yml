@@ -1,11 +1,9 @@
-uuid: 6aeb0df5-e47c-4b08-a32c-2e99a431ec58
+uuid: 968936e1-1595-4d17-b88c-6227f1cea3f3
 langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.user.compact
-    - field.field.user.user.field_bio
-    - field.field.user.user.field_display_name
     - field.field.user.user.user_picture
     - image.style.thumbnail
   module:
@@ -18,25 +16,16 @@ targetEntityType: user
 bundle: user
 mode: compact
 content:
-  field_display_name:
-    type: string
-    label: hidden
-    settings:
-      link_to_entity: true
-    third_party_settings: {  }
-    weight: 1
-    region: content
   user_picture:
     type: image
     label: hidden
     settings:
-      image_link: content
       image_style: thumbnail
+      image_link: content
       image_loading:
         attribute: lazy
     third_party_settings: {  }
     weight: 0
     region: content
 hidden:
-  field_bio: true
   member_for: true
