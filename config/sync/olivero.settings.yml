@@ -8,7 +8,7 @@ features:
   favicon: true
   node_user_picture: false
 logo:
-  path: 'public://DCP2024_logo.png'
+  path: 'public://DCP website logo.png'
   use_default: false
 third_party_settings:
   shortcut:
